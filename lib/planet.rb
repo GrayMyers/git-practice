@@ -1,5 +1,6 @@
 class Planet
-  def initialize(name)
+  def initialize(name,mass)
     @name = name
-  end  
+    @mass = mass
+  end
 end
